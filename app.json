@@ -7,7 +7,7 @@
   "website": "https://developer.autodesk.com/",
   "env": {
 	"FORGE_CLIENT_ID": {
-	  	"description": "Replace with your FORGE CLIENT ID KEY",
+	  	"description": "Replace  with your FORGE CLIENT ID KEY",
 		"value": "public"
 	},
 	"FORGE_CLIENT_SECRET": {
