@@ -1,0 +1,132 @@
+.model-properties {
+	background-color: rgba(0, 0, 0, 0.863);
+	border-radius: 25px;
+	padding: .8em 2em;
+	position: fixed;
+	color: white;
+	right: 3px;
+	top: 3px;
+	width: 10%;
+	z-index: 2;
+  	max-height: 60%;
+  	min-width: 15%;
+  	min-height: 25%;
+  	overflow-y: auto;
+}
+
+.model-properties .close-btn {
+	visibility: visible;
+}
+
+@media (max-width: 768px) {
+  .model-properties {
+    font-size: 1.5em;
+    width: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .8);
+    position: fixed;
+    height: auto;
+    max-height: 100vh;
+    padding: 2em;
+  }
+
+  .model-properties > div {
+  	background: rgba(255, 255, 255, .8);
+  	padding: 2em;
+  	color: black;
+  }
+
+  .model-properties .close-btn {
+	border-radius: 50%;
+	border: none;
+	color: white;
+	font-size: 2em;
+	height: 55px;
+	line-height: 1.8;
+	outline: none;
+	padding: 0;
+	position: absolute;
+	right: 10px;
+	text-align: center;
+	top: 10px;
+	width: 55px;
+	z-index: 2;
+	visibility: visible;
+  	background-color: rgba(135,135,135, 0.8);
+  }
+}
+
+.model-properties h3 {
+	margin: .2em 0;
+}
+
+.model-properties ul {
+	margin: 0 0 0 1em;
+	padding: 0;
+}
+
+.model-properties ul li {
+	margin: 0 0 0 .3em;
+	padding: 0;
+}
+
+.tg  {
+	border-collapse:collapse;
+	border-spacing:0;
+	border-color:#ccc;
+	margin:0px auto;
+}
+
+.tg td{
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:0px;
+	overflow:hidden;
+	word-break:normal;
+	
+	color:#333;
+	
+	border-top-width:1px;
+	border-bottom-width:1px;
+	position: relative;
+}
+
+.tg th{
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:0px;
+	overflow:hidden;
+	word-break:normal;
+	
+	color:#333;
+	
+	border-top-width:1px;
+	border-bottom-width:1px;
+	position: relative;
+}
+
+.tg .tg-yw4l{
+	z-index: 2;
+}
+
+@media screen and (max-width: 767px) {
+	.tg {
+		width: auto !important;
+	}
+		.tg col {
+			width: auto !important;
+		}
+			.tg-wrap {
+				overflow-x: auto;
+				-webkit-overflow-scrolling: touch;
+				margin: auto 0px;
+			}
+}
