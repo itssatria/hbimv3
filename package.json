@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "npm run start:server",
+    "start": "npm audit fix --force && npm run start:server",
     "watch": "npm-run-all --parallel start:*",
     "start:server": "node server/server.js",
     "start:client": "react-scripts start",
@@ -23,7 +23,7 @@
     "url": "https://github.com/Autodesk-Forge/viewer-react-express-headless/issues"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^1.2.1",
     "babel-preset-es2015": "6.3.13",
     "babel-preset-stage-0": "6.5.0",
     "bootstrap": "^4.6.0",
@@ -35,7 +35,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-redux": "^7.2.2",
-    "react-scripts": "^3.4.4",
+    "react-scripts": "^5.0.1",
     "redux": "^3.6.0",
     "scroll-to": "0.0.2"
   },
