@@ -17,7 +17,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 var credentials ={
-
+ 
 	credentials: {
 		// Replace placeholder below by the Consumer Key and Consumer Secret you got from
 		// http://developer.autodesk.com/ for the production server
