@@ -22,8 +22,8 @@ const app = express();
 const request = require('request');
 const buildDirectory = path.join(__dirname, '../build')
 const credentials = (
-  require ('fs').existsSync(path.join(__dirname, 'credentials.js'))
-    ? require ('./credentials')
+  require ('fs').existsSync(path.join(__dirname, 'credentials_.js'))
+    ? require ('./credentials_')
     : (
         console.log('No credentials.js file present, assuming using FORGE_CLIENT_ID & FORGE_CLIENT_SECRET system variables.'),
         require ('./credentials_')
