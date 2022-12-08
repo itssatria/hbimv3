@@ -16,4 +16,4 @@ npm-debug.log
 
 
 cra-server-ex.graffle
-server/credentials.js
+# server/credentials.js
