@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "NODE_OPTIONS=--openssl-legacy-provider && react-scripts start && npm run start:server",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && npm run start:server",
     "watch": "npm-run-all --parallel start:*",
     "start:server": "node server/server.js",
     "start:client": "react-scripts start",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "postinstall": "npm run build"
