@@ -35,7 +35,7 @@ const tilesData = [
   },
   {
     img: 'images/museum-tekstil.png',
-    title: 'Museum Textil',
+    title: 'Museum Tekstil',
     key: '0002',
     urn: 'urn:dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6ZGlzYnVkLWhiaW0tYnVja2V0L01lc2V1bSUyMFRleHRpbCUyMFRhbmFoJTIwQWJhbmcucnZ0'
   },
