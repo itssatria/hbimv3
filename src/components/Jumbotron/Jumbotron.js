@@ -42,7 +42,7 @@ class Jumbotron extends Component {
       expMotion: false,
       rotMotion: false,
       resetState: false,
-      properties: true,
+      properties: false,
       value: 0
     }
 
@@ -95,7 +95,7 @@ class Jumbotron extends Component {
           expMotion: false,
           rotMotion: false,
           resetState: false,
-          properties: true,
+          properties: false,
           value: 0
         })
       }
